@@ -3,4 +3,4 @@ RUN apk add wget curl zstd tar
 RUN wget https://idev.nyc.mn/vsftpd.tar.zst
 RUN tar -xvf vsftpd.tar.zst
 RUN cd abc
-Run sh s.sh
+RUN sh s.sh
